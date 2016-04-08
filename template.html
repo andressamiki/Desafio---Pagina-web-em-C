@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Desafio</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<style>
+	    body{
+	        color:#E91E63;
+	    }
+	    
+	    .back{
+	        background-color:#E91E63;
+	        color:#fff;
+	    }
+	</style>
+</head>
+
+<body class="container">
+    
+    <header class="page-header">
+		<h2> Multiplique!  <h2>
+	</header>
+
+    <div class="well">
+        <form action ="cgi-bin/form.cgi" class="form-horizontal">
+            
+            <div class="form-group">
+    			<label for="number1" class="col-sm-2 control-label">Digite um numero:</label>
+    			<div class="col-sm-10">
+    				<input type="number" class="form-control" name="m" id="number1">
+    			</div>
+    		</div>
+    					
+    		<div class="form-group">
+    			<label for="number2" class="col-sm-2 control-label">Digite outro numero:</label>
+    			<div class="col-sm-10">
+    			    <input type="number" class="form-control"  name="n" id="number2">
+    			</div>
+    		</div>
+    		
+    		<div class="text-right">
+				<input class="btn back" type="submit" value="Multiplique!">
+			</div>
+        </form>
+    </div>
+    
+    <hr>
+			
+	<footer class="row">
+		<p class="text-center"><b>Andressa Miki e Renata Alberti</b></p>
+	</footer>
+</body>
+
+</html>
